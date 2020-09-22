@@ -1,0 +1,9 @@
+<h3>Poem Results</h3>
+  <% @poems.each do |poem| %>
+  <section class="search-results">
+    <p>Title:<%= poem.title %></p>
+    <p>Author:<%= poem.author %></p>
+    <p>Lines:<%= poem.lines %></p>
+    <p>Tones:<%= poem.tones %></p>
+  </section>
+<% end %>
